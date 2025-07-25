@@ -1,0 +1,14 @@
+.container{
+    background: rgb(224, 224, 42);
+}
+.sizeadjuster{
+    height:18rem;
+}
+.fade-image{
+    opacity:0%;
+    animation:fadeInAnimation 3s ease-in forwards;
+}
+@keyframes fadeInAnimation{
+    from{opacity:0;}
+    to{opacity:1;}
+}
